@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Scroll Navbar Effect</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 2000px; /* Just for demonstration purpose */
+    background-color: teal;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+#content {
+    height: 2000px; /* Just for demonstration purpose */
+}
+
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <!-- Your page content here -->
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+
+        window.addEventListener('scroll', function() {
+    var navbar = document.getElementById('nav-all-1');
+    if (window.scrollY > 50) {
+        navbar.style.backgroundColor = 'white'; // Change background color
+        navbar.querySelectorAll('nav-all-1').forEach(function(link) {
+            link.style.color = '#000'; // Change text color
+        });
+    } else {
+        navbar.style.backgroundColor = 'transparent'; // Reset background color
+        navbar.querySelectorAll('nav-all-1').forEach(function(link) {
+            link.style.color = '#fff'; // Reset text color
+        });
+    }
+});
+
+    </script>
+</body>
+</html>

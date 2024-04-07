@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document-2</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./work2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Nav-bar  -->
+
+
+    <nav class="navbar bg-body-tertiary fixed-top  drop navbar-expand-xl  fond raleway  ">
+
+        <div class="container-fluid" id="nav-all-1">
+            <!-- logo -->
+            <div class="d-flex justify-content-start align-content-start ps-4 pe-4 ">
+                <a class="navbar-brand " href="#">
+                    <img src="./Product  pic/Logo.png" alt="" srcset="" height="">
+                </a>
+            </div>
+            <!-- btn-toggler- -->
+            <button class="navbar-toggler  shadow-none border-0 " type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon  me-md-4 me-sm-2 mb-4 "></span>
+            </button>
+            <!-- sidebar -->
+            <div class="offcanvas offcanvas-start sidebar bar-back    " tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header ">
+                    <div class="">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./Product  pic/Logo.png" alt=""
+                                srcset="" height="40" class="bar-img img-fluid "></h5>
+
+                    </div>
+                </div>
+
+                <!-- sidebar body -->
+
+                <div class="offcanvas-body d-flex justify-content-start     overflow-md-scroll     ">
+
+                    <ul class="navbar-nav LOV container pt-5 justify-content-between pb-5  ">
+
+                        <li class="nav-item  ">
+
+                            <div class="dropdown  ">
+                                <a href="#"
+                                    class="dropbtn fs-6 fw-normal nav-all-1  pt-3 ps-4 pe-4 pb-4 fw-semibold fs-6 raleway">Home</a>
+                                <div class="dropdown-content pt-2 ps-3 pe-4 pb-3 fw-semibold">
+                                    <ul class="dropdown-ul">
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Software
+                                                Team</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Product</a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Social
+                                                Network</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Application</a>
+
+                                        </li>
+
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Creative
+                                                Team</a>
+
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <!-- sideabr is here  -->
+
+                        <li class="sidebar-item  " id="accordionFlushExample">
+
+
+                            <a href="#" class="sidebar-link collapsed has-dropdown text-decoration-none  "
+                                data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="false"
+                                aria-controls="auth">
+
+                                <div href="#" class=" text-white start-a-tag   ">
+                                    <div class="d-flex flex-row align-items-center justify-content-center pt-3 oye">
+
+                                        <span
+                                            class="d-flex align-items-center justify-content-center fw-bolder ">Home</span>
+                                        <div class="">
+                                            <i class="lni lni-chevron-down d-flex align-content-center   justify-content-end "
+                                                style="color: black !important; background-color: #f6463e !important;"></i>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+                            <ul id="auth" class="sidebar-dropdown list-unstyled collapse "
+                                data-bs-parent="#accordionFlushExample">
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Software</a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Product</a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Social
+                                        Network
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Application</a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;"> Creative
+                                        Team</a>
+                                </li>
+
+
+                            </ul>
+
+
+                            <a href="#" class="sidebar-link collapsed has-dropdown text-decoration-none  "
+                                data-bs-toggle="collapse" data-bs-target="#auth2" aria-expanded="false"
+                                aria-controls="auth2">
+
+                                <div href="#" class=" text-white start-a-tag   ">
+                                    <div class="d-flex flex-row align-items-center justify-content-center pt-3 oye">
+
+                                        <span
+                                            class="d-flex align-items-center justify-content-center fw-bolder ">About</span>
+                                        <div class="">
+                                            <i
+                                                class="lni lni-chevron-down d-flex align-content-center   justify-content-end "></i>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+                            <ul id="auth2" class="sidebar-dropdown list-unstyled collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">About
+                                        us</a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Team</a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        Testimonials
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Clients</a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Creative
+                                        Team</a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Contact
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Location
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">History
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">404
+                                    </a>
+                                </li>
+
+                            </ul>
+
+
+                            <a href="#" class="sidebar-link collapsed has-dropdown text-decoration-none  "
+                                data-bs-toggle="collapse" data-bs-target="#auth3" aria-expanded="false"
+                                aria-controls="auth3">
+
+                                <div href="#" class=" text-white start-a-tag   ">
+                                    <div class="d-flex flex-row align-items-center justify-content-center pt-3 oye">
+
+                                        <span
+                                            class="d-flex align-items-center justify-content-center fw-bolder ">Pages</span>
+                                        <div class="">
+                                            <i
+                                                class="lni lni-chevron-down d-flex align-content-center   justify-content-end "></i>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+                            <ul id="auth3" class="sidebar-dropdown list-unstyled collapse "
+                                data-bs-parent="#accordionFlushExample">
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2  "
+                                        style="color: black !important;">Services</a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        Single services
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Our
+                                        Process</a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Solutions
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Cost
+                                        Calculator
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">FAQ
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">Pricing
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+
+                            <a href="#" class="sidebar-link collapsed has-dropdown text-decoration-none  "
+                                data-bs-toggle="collapse" data-bs-target="#auth4" aria-expanded="false"
+                                aria-controls="auth4">
+
+                                <div href="#" class=" text-white start-a-tag   ">
+                                    <div class="d-flex flex-row align-items-center justify-content-center pt-3 "
+                                        style="gap: 10.5rem;">
+
+                                        <span
+                                            class="d-flex align-items-center justify-content-center fw-bolder ">Potfolio</span>
+                                        <div class="">
+                                            <i
+                                                class="lni lni-chevron-down d-flex align-content-center   justify-content-end "></i>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+                            <ul id="auth4" class="sidebar-dropdown list-unstyled collapse"
+                                data-bs-parent="#accordionFlushExample">
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+
+
+                                        Potfolio List
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        Potfolio grid
+
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        Potfolio tiles
+
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        Single potfolio
+
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="sidebar-link collapsed has-dropdown text-decoration-none  "
+                                data-bs-toggle="collapse" data-bs-target="#auth5" aria-expanded="false"
+                                aria-controls="auth5">
+
+                                <div href="#" class=" text-white start-a-tag   ">
+                                    <div class="d-flex flex-row align-items-center justify-content-center pt-3 oye">
+
+                                        <span
+                                            class="d-flex align-items-center justify-content-center fw-bolder ">News</span>
+                                        <div class="">
+                                            <i
+                                                class="lni lni-chevron-down d-flex align-content-center   justify-content-end "></i>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+                            <ul id="auth5" class="sidebar-dropdown list-unstyled collapse"
+                                data-bs-parent="#accordionFlushExample">
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+
+
+                                        News List
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        News grid
+
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        News tiles
+
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        Lasted posts
+
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        Sinlge post
+
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                            <a href="#" class="sidebar-link collapsed has-dropdown text-decoration-none  "
+                                data-bs-toggle="collapse" data-bs-target="#auth6" aria-expanded="false"
+                                aria-controls="auth6">
+
+                                <div href="#" class=" text-white start-a-tag   ">
+                                    <div class="d-flex flex-row align-items-center justify-content-center pt-3 "
+                                        style="gap: 10rem;">
+
+                                        <span
+                                            class="d-flex align-items-center justify-content-center fw-bolder ">Elements</span>
+                                        <div class="">
+                                            <i
+                                                class="lni lni-chevron-down d-flex align-content-center   justify-content-end "></i>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+                            <ul id="auth6" class="sidebar-dropdown list-unstyled collapse"
+                                data-bs-parent="#accordionFlushExample">
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+
+
+                                        Base
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        Common
+
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+
+                                        Presentational
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="sidebar-link collapsed has-dropdown text-decoration-none  "
+                                data-bs-toggle="collapse" data-bs-target="#auth7" aria-expanded="false"
+                                aria-controls="auth7">
+
+                                <div href="#" class=" text-white start-a-tag   ">
+                                    <div class="d-flex flex-row align-items-center justify-content-center pt-3 "
+                                        style="gap: 11.3rem;">
+
+                                        <span
+                                            class="d-flex align-items-center justify-content-center fw-bolder ">Shop</span>
+                                        <div class="">
+                                            <i
+                                                class="lni lni-chevron-down d-flex align-content-center   justify-content-end "></i>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+                            <ul id="auth7" class="sidebar-dropdown list-unstyled collapse"
+                                data-bs-parent="#accordionFlushExample">
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+
+
+                                        Product
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        Single product
+
+                                    </a>
+                                </li>
+                                <li class="sidebar-item start-a-tag">
+                                    <a href="#"
+                                        class="sidebar-link text-decoration-none text-white d-flex align-items-start  ps-2   "
+                                        style="color: black !important;">
+                                        Shop pages
+
+                                    </a>
+                                </li>
+                            </ul>
+
+
+
+
+
+
+
+
+
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <li class="nav-item">
+
+                            <div class="dropdown">
+                                <a href="#"
+                                    class="dropbtn fs-6 fw-normal nav-all-1 pt-3 ps-4 pe-4 pb-4 fw-semibold fs-6 raleway">About</a>
+                                <div class="dropdown-content pt-2 ps-3 pe-4 pb-3 fw-semibold">
+                                    <ul class="dropdown-ul">
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">About us</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Team</a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Testimonials</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Clients</a>
+
+                                        </li>
+
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Careers
+                                            </a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Creative
+                                                Team</a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Contact</a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Location</a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">History</a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">404</a>
+
+                                        </li>
+
+
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <div class="dropdown">
+                                <a href="#"
+                                    class="dropbtn nav-all-1 fs-6 fw-normal pt-3 ps-4 pe-4 pb-4 fw-semibold fs-6 raleway">Pages</a>
+                                <div class="dropdown-content pt-2 ps-3 pe-4 pb-3 fw-semibold">
+                                    <ul class="dropdown-ul">
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Services</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Single services</a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Our Process</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Solutions</a>
+
+                                        </li>
+
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Cost Calculator
+                                            </a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">FAQ
+                                            </a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Pricing
+                                            </a>
+
+                                        </li>
+
+
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </li>
+
+
+                        <li class="nav-item">
+
+                            <div class="dropdown">
+                                <a href="#"
+                                    class="dropbtn fs-6 fw-normal nav-all-1 pt-3 ps-4 pe-4 pb-4 fw-semibold fs-6 raleway">Portfolio</a>
+                                <div class="dropdown-content pt-2 ps-3 pe-4 pb-3 fw-semibold">
+                                    <ul class="dropdown-ul">
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Portfolio list</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Portfolio grid</a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Portfolio tiles</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Single Portfolio</a>
+
+                                        </li>
+
+
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a href="#"
+                                    class="dropbtn fs-6 fw-normal nav-all-1  pt-3 ps-4 pe-4 pb-4 fw-semibold fs-6 raleway">News</a>
+                                <div class="dropdown-content pt-2 ps-3 pe-4 pb-3 fw-semibold">
+                                    <ul class="dropdown-ul">
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">News list</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">News grid</a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">News tiles</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Single post </a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark"> Latest post </a>
+
+                                        </li>
+
+
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+
+                            <div class="dropdown">
+                                <a href="#"
+                                    class=" dropbtn fs-6 fw-normal nav-all-1    pt-3 ps-4 pe-4 pb-4 fw-semibold fs-6 raleway">Elements
+                                </a>
+
+                                <div class="dropdown-content-e   fw-semibold">
+                                    <div
+                                        class="d-flex align-items-start   dropdown-ul-e justify-content-start  pt-3 ps-3 pb-3  ">
+                                        <ul class="ul ">
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark drop-h ">Base</a>
+
+                                            </li>
+
+                                            <div class="text-container">
+
+                                            </div>
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Headlines</a>
+
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Buttons</a>
+
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Icons</a>
+
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Images</a>
+
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Inner Rows &
+                                                    Inner coluums</a>
+
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Countdown &
+                                                    Counter</a>
+
+                                            </li>
+
+
+
+
+
+                                        </ul>
+                                        <ul class="ul">
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#"
+                                                    class="ms-1 text-decoration-none text-dark drop-h ">Common</a>
+
+                                            </li>
+
+                                            <div class="text-container">
+
+                                            </div>
+                                            <li class="droplink-e d-flex align-items-center">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Progress
+                                                    bars</a>
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Prices Lists</a>
+
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Google Map</a>
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Services</a>
+
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Accordion</a>
+
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Tabs</a>
+
+                                            </li>
+
+
+                                        </ul>
+
+                                        <ul class="ul">
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#"
+                                                    class="ms-1 text-decoration-none text-dark drop-h ">Presentational</a>
+
+                                            </li>
+
+                                            <div class="text-container">
+
+                                            </div>
+                                            <li class="droplink-e d-flex align-items-center">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Team</a>
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Sliders</a>
+
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center ">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Testimonials</a>
+
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Simple Cost
+                                                    Calculator</a>
+                                            </li>
+                                            <li class="droplink-e d-flex align-items-center">
+                                                <p class="circle"></p>
+                                                <a href="#" class="ms-1 text-decoration-none text-dark">Social Media</a>
+
+                                            </li>
+
+
+
+                                        </ul>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a href="#"
+                                    class="dropbtn fs-6 fw-normal nav-all-1  pt-3 ps-4 pe-4 pb-4 fw-semibold fs-6 raleway">Shop</a>
+                                <div class="dropdown-content pt-2 ps-3 pe-4 pb-3 fw-semibold">
+                                    <ul class="dropdown-ul">
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Product</a>
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Single product</a>
+
+                                        </li>
+                                        <li class="droplink d-flex align-items-center">
+                                            <p class="circle"></p>
+                                            <a href="#" class="ms-1 text-decoration-none text-dark">Shop pages</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
+
+                        </li>
+
+                        <div class="d-flex align-items-center    nav-all-1   justify-content-end  navbar-b-i-s  "
+                            style="cursor: pointer;">
+
+                            <div class="d-flex justify-content-center  fav-btn  ms-lg-4 me-lg-3">
+                                <div class=" d-flex align-items-center justify-content-center ps-3">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div>
+                                <button type="button" class="border border-0  text-white  fw-bold ps-2 pe-2"
+                                    style="background-color: transparent;">
+                                    Support site
+                                </button>
+                            </div>
+
+                            <div
+                                class="d-flex  align-items-center  justify-content-center  bag ms-lg-3 pe-lg-3 briefcase-i">
+
+                                <i class="fa-solid fa-briefcase p-1 other-element "></i>
+                                <p class="ps-1 nav-zero other-element">0</p>
+
+                            </div>
+
+                            <div class="ms-2 magnifying-i d-flex pe-4 a">
+
+                                <i class="fa-solid fa-magnifying-glass"></i>
+
+                                <div class="modal-dialog modal-xl">
+
+                                </div>
+
+                                </i>
+                            </div>
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </nav>
+
+
+    <!-- Swiper -->
+
+    <section style="height: max-content;">
+        <div class="swiper-all raleway  ">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide container-fluid ">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 mt-5 pt-5 mb-5 pb-5 ">
+                                <div
+                                    class="d-flex flex-column align-items-start justify-content-center pt-5 ps-4 pe-4 pb-5 mb-5">
+                                    <div class="d-flex flex-column align-items-start justify-content-center">
+                                        <h3 class="fw-normal "
+                                            style="color: #f6463e;font-size: 80px;letter-spacing: -6px;">
+                                            Version 2
+                                        </h3>
+                                        <u
+                                            style="color: #762dc4; font-size: 80px; text-decoration: none; font-weight: 700;letter-spacing: -3px;">Coming
+                                            up!
+                                        </u>
+                                        <p class="mt-2 fw-medium "
+                                            style="font-size: 16px;color:#181818; line-height: -1px !important; ">Lorem
+                                            ipsum dolor sit,
+                                            amet consectetur adipisicing Lorem ipsum, dolor. Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Expedita, rem illo ea, dolorum dignissimos
+                                            quas .
+                                        </p>
+                                    </div>
+                                    <div class="d-flex mt-4">
+                                        <div>
+                                            <input type="text" class="update-input"
+                                                placeholder="Enter your email adress">
+                                        </div>
+                                        <div class="d-flex align-content-center justify-content-center fav-btn-5">
+                                            <button type="button" class="border border-0 fw-bold ps-2 pe-2"
+                                                style="background-color: #f6463e; color:white; border-radius: 3rem;">
+                                                Keep me updated
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 ">
+                                <img src="./Product  pic/img-slider-01.png" alt="" srcset="" class="img-fluid mt-5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 mt-5 pt-5 mb-5 pb-5 ">
+                                <div
+                                    class="d-flex flex-column align-items-start justify-content-center pt-5 ps-4 pe-4 pb-5 mb-5">
+                                    <div class="d-flex flex-column align-items-start justify-content-center">
+                                        <h3 class="fw-normal "
+                                            style="color: #f6463e;font-size: 80px;letter-spacing: -6px;">
+                                            Powering
+                                        </h3>
+                                        <u
+                                            style="color: #762dc4; font-size: 80px; text-decoration: none; font-weight: 700;letter-spacing: -3px;">What's
+                                            next
+
+                                        </u>
+                                        <p class="mt-2 fw-medium "
+                                            style="font-size: 16px;color:#181818; line-height: -1px !important; ">Lorem
+                                            ipsum dolor sit,
+                                            amet consectetur adipisicing Lorem ipsum, dolor. Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Expedita, rem illo ea, dolorum dignissimos
+                                            quas .
+                                        </p>
+                                    </div>
+                                    <div class="d-flex mt-4" style="gap: 1rem;">
+                                        <div class="d-flex align-content-center justify-content-center fav-btn-2">
+                                            <button type="button" class="border border-0 fw-bold ps-2 pe-2"
+                                                style="background-color: #762dc4; color:white; border-radius: 3rem;">
+                                                Find out more
+                                            </button>
+                                        </div>
+
+                                        <div class="d-flex align-content-center justify-content-center fav-btn-5">
+                                            <button type="button" class="border border-0 fw-bold ps-2 pe-2"
+                                                style="background-color: #f6463e; color:white; border-radius: 3rem;">
+                                                View Product
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 ">
+                                <img src="./Product  pic/img-slider-02.png" alt="" srcset="" class="img-fluid mt-5">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 mt-5 pt-5 mb-5 pb-5 ">
+                                <div
+                                    class="d-flex flex-column align-items-start justify-content-center pt-5 ps-4 pe-4 pb-5 mb-5">
+                                    <div class="d-flex flex-column align-items-start justify-content-center">
+                                        <h3 class="fw-normal "
+                                            style="color: #f6463e;font-size: 80px;letter-spacing: -6px;">
+                                            Going
+                                        </h3>
+                                        <u
+                                            style="color: #762dc4; font-size: 70px; text-decoration: none; font-weight: 700;letter-spacing: -5px;">Forward
+                                            Faster
+
+                                        </u>
+                                        <p class="mt-2 fw-medium "
+                                            style="font-size: 16px;color:#181818; line-height: -1px !important; ">Lorem
+                                            ipsum dolor sit,
+                                            amet consectetur adipisicing Lorem ipsum, dolor. Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Expedita, rem illo ea, dolorum dignissimos
+                                            quas .
+                                        </p>
+                                    </div>
+                                    <div class="d-flex mt-4" style="gap: 1rem;">
+                                        <div class="d-flex align-content-center justify-content-center fav-btn-2">
+                                            <button type="button" class="border border-0 fw-bold ps-2 pe-2"
+                                                style="background-color: #762dc4; color:white; border-radius: 3rem;">
+                                                View Fearture
+                                            </button>
+                                        </div>
+
+
+                                        <div class="d-flex align-content-center justify-content-center fav-btn-5">
+                                            <button type="button" class="border border-0 fw-bold ps-2 pe-2"
+                                                style="background-color: #f6463e; color:white; border-radius: 3rem;">
+                                                Buy Codiqa now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 ">
+                                <img src="./Product  pic/img-slider-03-1.png" alt="" srcset="" class="img-fluid mt-5 ">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <!-- sceond area  -->
+
+    <section class="raleway">
+
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="px-5 ps-md-5 ms-md-5 ps-sm-5 ms-sm-5">
+                    <img src="./Product  pic/img-benefits.png" alt="" class="img-fluid ">
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
+                <div class="px-5 ">
+                    <div class="d-flex flex-column align-items-start justify-content-center">
+                        <h3 class="fw-normal " style="color: #f6463e;font-size: 80px;letter-spacing: -6px;">
+                            What does
+                        </h3>
+                        <u
+                            style="color: #762dc4; font-size: 70px; text-decoration: none; font-weight: 700;letter-spacing: -5px;">
+                            Codiqa offer?
+
+                        </u>
+                        <p class="mt-2 fw-medium "
+                            style="font-size: 16px;color:#181818; line-height: -1px !important; ">Lorem
+                            ipsum dolor sit,
+                            amet consectetur adipisicing Lorem ipsum, dolor. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Expedita, rem illo ea, dolorum dignissimos
+                            quas .
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 ">
+                                <div class="d-flex flex-row ">
+                                    <div>
+                                        <img src="./Product  pic/cf-1.png" class="" alt="" srcset="" >
+                                    </div>
+                                    <div class="px-3">
+                                        <h5 style="font-size: 17px;">
+                                            Percise location
+                                        </h5>
+                                        <p style="font-size: 12px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maiores tempore deleniti nam beatae aut corporis nihil.
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 " >
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 " style="background-color: #f6463e;">
+                                kk
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 " style="background-color: #b40b02;">kk</div>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- swiper slider link  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+    <script>
+
+        // slider 1
+
+        var swiper = new Swiper(".mySwiper-1", {
+            direction: "vertical",
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+
+
+    </script>
+
+    <script>
+
+        // icons 
+
+        document.querySelectorAll('.sidebar-link').forEach(link => {
+            // Add click event listener
+            link.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Toggle the 'rotate' class on the corresponding chevron icon
+                const chevronIcons = this.querySelectorAll('.lni-chevron-down');
+                chevronIcons.forEach(chevronIcon => {
+                    chevronIcon.classList.toggle('rotate');
+                });
+            });
+        });
+
+
+
+
+        // nabar property
+
+        window.addEventListener('scroll', function () {
+            var navbar = document.getElementById('nav-all-1');
+            if (window.scrollY > 10 * parseFloat(getComputedStyle(document.documentElement).fontSize)) {
+                navbar.style.backgroundColor = 'white'; // Change background color
+                navbar.style.boxShadow = '0 2px 16px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1)'; // Add black shadow at bottom
+                navbar.querySelectorAll('.nav-all-1').forEach(function (link) {
+                    link.style.color = 'black'; // Change text color
+                });
+            } else {
+                navbar.style.backgroundColor = 'transparent'; // Reset background color
+                navbar.style.boxShadow = 'none'; // Reset shadow
+                navbar.querySelectorAll('.nav-all-1').forEach(function (link) {
+                    link.style.color = 'black'; // Reset text color
+                });
+            }
+        });
+
+
+    </script>
+
+</body>
+
+</html>
